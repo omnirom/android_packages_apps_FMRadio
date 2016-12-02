@@ -26,6 +26,7 @@ LOCAL_C_INCLUDES := $(JNI_H_INCLUDE) \
     frameworks/base/include/media
 
 LOCAL_SHARED_LIBRARIES := \
+    liblog \
     libcutils \
     libdl \
     libmedia \
@@ -38,3 +39,4 @@ include $(BUILD_SHARED_LIBRARY)
 endif
 endif
 
+include $(BUILD_SHARED_LIBRARY)
