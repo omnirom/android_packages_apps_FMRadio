@@ -38,5 +38,3 @@ ifneq ($(BOARD_HAVE_QCOM_FM),true)
 include $(BUILD_SHARED_LIBRARY)
 endif
 endif
-
-include $(BUILD_SHARED_LIBRARY)
