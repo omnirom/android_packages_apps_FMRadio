@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifeq ($(BOARD_HAVE_QCOM_FM),true)
+ifeq ($(BOARD_HAVE_FM_RADIO),true)
 
 LOCAL_PATH:= $(call my-dir)
 
@@ -38,4 +38,4 @@ include $(BUILD_PACKAGE)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
-endif #BOARD_HAVE_QCOM_FM
+endif #BOARD_HAVE_FM_RADIO
