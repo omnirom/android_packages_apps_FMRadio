@@ -29,4 +29,5 @@
     <color name="actionbar_overflow_title_disabled_color">#33000000</color>
     <!-- FM main page text color -->
     <color name="text_fm_color">#CFD8DC</color>
+    <color name="ic_launcher_background">#F2F2F2</color>
 </resources>
